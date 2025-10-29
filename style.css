@@ -34,7 +34,7 @@ html {
 .logo-container {
 	flex: 1 1 var(--logo-container-width);
 
-	display: flex;
+	position: relative;
 
 	flex-direction: column;
 	justify-content: space-between;
@@ -51,10 +51,11 @@ html {
 }
 
 .logo-content {
-	margin-bottom: auto;
-	margin-top: calc(50% - 4.5rem);
-
 	display: flex;
+
+	position: absolute;
+
+	top: 250px;
 
 	justify-content: center;
 	align-items: center;
@@ -73,6 +74,14 @@ html {
 
 .logo-content img {
 	height: 100%;
+}
+
+.image-credits {
+	position: absolute;
+
+	bottom: 0.9rem;
+	text-align: center;
+	width: 100%;
 }
 
 .main-container {
