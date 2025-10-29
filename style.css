@@ -96,6 +96,8 @@ html {
 
 .hero-container {
 	padding: 0 3rem;
+
+	max-width: 800px;
 }
 
 .hero-container h2 {
