@@ -146,7 +146,7 @@ html {
 	box-shadow: 0px 5px 5px 1px #0000002a;
 }
 
-.inputs input:invalid {
+.inputs input:user-invalid {
 	outline: none;
 	border: 2px solid red;
 }
