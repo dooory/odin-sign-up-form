@@ -7,12 +7,16 @@
 }
 
 :root {
-	--logo-container-width: 32%;
+	--logo-container-width: 40%;
 }
 
 * {
 	margin: 0;
 	padding: 0;
+}
+
+html {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .root {
@@ -23,7 +27,7 @@
 	min-height: 100vh;
 }
 
-.form-container {
+.main-container {
 	flex: 1 0 calc(100% - var(--logo-container-width));
 }
 
@@ -69,4 +73,19 @@
 
 .logo-content img {
 	height: 100%;
+}
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.hero-container {
+	padding: 0 3rem;
+}
+
+.hero-container h2 {
+	font-size: 2rem;
+	padding: 1rem 0;
 }
