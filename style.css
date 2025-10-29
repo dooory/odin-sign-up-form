@@ -89,6 +89,8 @@ html {
 	flex-direction: column;
 	justify-content: center;
 
+	gap: 50px;
+
 	background-color: #f9fafb;
 }
 
