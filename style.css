@@ -6,7 +6,67 @@
 	font-style: normal;
 }
 
+:root {
+	--logo-container-width: 32%;
+}
+
 * {
 	margin: 0;
 	padding: 0;
+}
+
+.root {
+	display: flex;
+}
+
+.parent-container {
+	min-height: 100vh;
+}
+
+.form-container {
+	flex: 1 0 calc(100% - var(--logo-container-width));
+}
+
+.logo-container {
+	flex: 1 1 var(--logo-container-width);
+
+	display: flex;
+
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+	color: white;
+	background-image: url("resources/images/background.jpg");
+
+	background-size: cover;
+}
+
+.logo-container a {
+	color: white;
+}
+
+.logo-content {
+	margin-bottom: auto;
+	margin-top: calc(50% - 4.5rem);
+
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 10rem;
+	width: 100%;
+}
+
+.logo-content h1 {
+	font-size: 8rem;
+
+	font-family: 'norsebold', 'Times New Roman', Times, serif;
+	color: white;
+}
+
+.logo-content img {
+	height: 100%;
 }
