@@ -136,7 +136,8 @@ html {
 	font-size: 1rem;
 	padding: 10px 10px;
 	border-radius: 6px;
-	border: 1.5px solid #00000015;
+	outline: 1.5px solid #00000015;
+	border: 2px solid transparent;
 }
 
 .inputs input:focus {
