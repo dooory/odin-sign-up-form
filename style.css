@@ -130,6 +130,7 @@ html {
 
 .inputs label {
 	font-size: 0.8rem;
+	letter-spacing: 1px;
 }
 
 .inputs input {
