@@ -79,6 +79,8 @@ html {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+
+	background-color: #f9fafb;
 }
 
 .hero-container {
@@ -88,4 +90,54 @@ html {
 .hero-container h2 {
 	font-size: 2rem;
 	padding: 1rem 0;
+}
+
+.form-inputs {
+	box-shadow: 0px 2px 5px 1px #0000002a;
+	background-color: #fff;
+
+	padding: 2rem 10rem 4rem 3rem;
+}
+
+.form-inputs>h2 {
+	padding-bottom: 1.5rem;
+	font-size: 2rem;
+}
+
+.inputs {
+	display: flex;
+	flex-flow: row wrap;
+	row-gap: 1rem;
+	column-gap: 5rem;
+	max-width: 656px;
+}
+
+.inputs>div {
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+	width: 15rem;
+}
+
+.inputs label {
+	font-size: 0.8rem;
+}
+
+.inputs input {
+	font-size: 1rem;
+	padding: 10px 10px;
+	border-radius: 6px;
+	border: 1.5px solid #00000015;
+}
+
+.inputs input:focus {
+	outline: none;
+	border: 2px solid blue;
+
+	box-shadow: 0px 5px 5px 1px #0000002a;
+}
+
+.inputs input:invalid {
+	outline: none;
+	border: 2px solid red;
 }
